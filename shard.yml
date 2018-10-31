@@ -1,0 +1,17 @@
+name: bawork
+version: 0.1.0
+
+authors:
+  - Halis Duraki <duraki@linuxmail.org>
+
+targets:
+  bawork:
+    main: src/bawork.cr
+
+dependencies:
+  crystagiri:
+    github: madeindjs/crystagiri
+
+crystal: 0.25.1
+
+license: MIT
